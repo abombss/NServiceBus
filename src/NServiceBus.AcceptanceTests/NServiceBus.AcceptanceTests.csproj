@@ -51,18 +51,6 @@
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Practices.Unity">
-      <HintPath>..\packages\Unity\lib\NET35\Microsoft.Practices.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Practices.Unity.Configuration">
-      <HintPath>..\packages\Unity\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Practices.Unity.Interception">
-      <HintPath>..\packages\Unity.Interception\lib\NET35\Microsoft.Practices.Unity.Interception.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration">
-      <HintPath>..\packages\Unity.Interception\lib\NET35\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
-    </Reference>
     <Reference Include="Ninject">
       <HintPath>..\packages\Ninject\lib\net40\Ninject.dll</HintPath>
     </Reference>
@@ -200,10 +188,6 @@
     <ProjectReference Include="..\ObjectBuilder.StructureMap\ObjectBuilder.StructureMap.csproj">
       <Project>{c05e5b87-eb74-4a3f-b4fc-afdd28570850}</Project>
       <Name>ObjectBuilder.StructureMap</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ObjectBuilder.Unity\ObjectBuilder.Unity.csproj">
-      <Project>{343b2e7a-e228-4b31-abb5-f5437b2e7a4c}</Project>
-      <Name>ObjectBuilder.Unity</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\src\NServiceBus.Core\NServiceBus.Core.csproj">
       <Project>{dd48b2d0-e996-412d-9157-821ed8b17a9d}</Project>
